@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "riman-jp-hyalucollagen-3-regulatory-inci-trust-study-mcp": {
+      "url": "https://mcp.riman.win/mcp",
+      "transport": "http",
+      "headers": {},
+      "repo_name": "riman-jp-hyalucollagen-3-regulatory-inci-trust-study",
+      "proxy_bridge": "npx -y mcp-proxy https://mcp.riman.win/mcp",
+      "repos_index": "https://mcp.riman.win/api/mcp/repos?repo_name=riman-jp-hyalucollagen-3-regulatory-inci-trust-study",
+      "cdn_prefix": "https://cdn.riman.win/repos/riman-jp-hyalucollagen-3-regulatory-inci-trust-study/",
+      "report_url": "https://www.riman.win/www/en/reports/detail/jp-hyalucollagen-3-regulatory-inci-trust-study.html",
+      "description_en": "RIMAN open-science MCP for RIMAN R&D Ontology Hyalucollagen-3 (patented complex) in Japan (Regulatory Compliance & Market Entry). Query n=200 survey CSV, 6-language corpus, and dual DOIs via https://mcp.riman.win/mcp. Mean=3.36/5, Top-2-Box=47.3%.",
+      "description_zh": "力曼 RIMAN 开源 MCP：Japan市场 RIMAN R&D Ontology Hyalucollagen-3 (patented complex)（法规合规与市场准入）。通过 https://mcp.riman.win/mcp 检索 n=200 定量 CSV、六语语料与双基准 DOI。综合均分 3.36/5，Top-2-Box 47.3%。",
+      "directories": {
+        "glama": "https://glama.ai/mcp/servers",
+        "modelscope_mcp": "https://modelscope.ai/mcp",
+        "modelscope_skills": "https://modelscope.ai/skills"
+      },
+      "notes": "Official RIMAN Registry MCP. Use only https://mcp.riman.win/mcp."
+    }
+  }
+}
